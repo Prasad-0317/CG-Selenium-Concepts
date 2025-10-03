@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- valu can be pass by suite or class -->
+  <test thread-count="5" name="Test">
+	  	<parameter name="user" value="problem_user"></parameter>
+		<parameter name="passwd" value="secret_sauce"/>
+	    
+	   	<classes>
+	      <class name="com.testng.ParameterTest"/>
+	    </classes> 
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Test1">
+		<parameter name="user" value="error_user"></parameter>
+		<parameter name="passwd" value="secret_sauce"/>
+	    <classes>
+	      <class name="com.testng.ParameterTest"/>
+	    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

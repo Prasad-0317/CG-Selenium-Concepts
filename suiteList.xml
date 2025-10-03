@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+  	<listener class-name="com.listeners.SuiteListener"/>
+  </listeners>
+  
+<suite-files>
+	<!-- <suite-file path="datatest.xml"/>  -->
+	<suite-file path="NewTest2.xml"/>
+	<!-- 
+	
+	<suite-file path="groups.xml"/>
+	<suite-file path="newText.xml"/> -->
+</suite-files>
+</suite> <!-- Suite -->
