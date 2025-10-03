@@ -1,0 +1,13 @@
+listeners are interfaces which listenes the activity of script like events
+shortcut : rigth click source override imple methods
+
+when u starts any activity , they will start listening, unless they are ideal
+
+Invoke =used before and after methods 
+
+ihookable = authentications, apis, applicable for particular test method , like call back,
+
+config = setup config successful or fail or skip?
+
+iannottrans = provide some test case code . has inbuild methods , using annotation class, method, constructor
+it is code which is passed to main code script. At runtime it should pass value.
